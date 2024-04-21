@@ -1,9 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom"; 
+import App from "./components/App";
 
-function Welcome(props) {  
-    return <h1>Hello, {props.name}</h1>;
-} 
+ReactDOM.render(<App />, document.getElementById("root"));
 
-const element = <Welcome name="BABA YAO" />; 
-ReactDOM.render(element, document.getElementById("root"))
