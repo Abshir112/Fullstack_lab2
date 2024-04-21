@@ -9,7 +9,7 @@
     "build": "webpack --mode production",
     "serve": "nodemon ./server/server.js",
     "dev": "concurrently \"npm run serve\" \"npm run start\""
-},
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -22,7 +22,10 @@
     "webpack-cli": "^4.10.0"
   },
   "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
     "html-webpack-plugin": "^5.6.0",
+    "mongoose": "^8.3.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
